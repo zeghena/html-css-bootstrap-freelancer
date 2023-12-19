@@ -44,12 +44,20 @@
     <!-- ###### HERO  #####  -->
     <main>
         <section id="hero" class="py-5">
-            <div class="container text-center">
-                IMG <BR />
-                titolo<BR />
-                titolo<BR />
-                titolo<BR />
-                link - link - link
+            <div class="container g-10 text-center">
+                <div class="row g-4 mb-2">
+                    <div class="">
+                        <img src="./style/bootstrap_freelancer/img/avatar.svg" class="avatar img-md-20%" alt="">
+                    </div>
+                </div>
+
+                <h1>START BOOTSTRAP</h1>
+                <div>
+                    <div class="riga"></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR
             </div>
         </section>
     </main>
@@ -58,26 +66,26 @@
 
     <section id="portflio" class="py-5">
         <div class="container text-center">
-            PORTFOLIO<br />
+            <h1>PORTFOLIO</h1>
             STAR<br />
             <div class="row g-4 mt-3">
                 <div class="col-12 col-md-6 col-lg-4">
-                    <div class="card p-5">IMG</div>
+                    <div class="card p-5"><img src="./style/bootstrap_freelancer/img/cabin.png" alt=""></div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4">
-                    <div class="card p-5">IMG</div>
+                    <div class="card p-5"><img src="./style/bootstrap_freelancer/img/cake.png" alt=""></div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4">
-                    <div class="card p-5">IMG</div>
+                    <div class="card p-5"><img src="./style/bootstrap_freelancer/img/circus.png" alt=""></div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4">
-                    <div class="card p-5">IMG</div>
+                    <div class="card p-5"><img src="./style/bootstrap_freelancer/img/game.png" alt=""></div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4">
-                    <div class="card p-5">IMG</div>
+                    <div class="card p-5"><img src="./style/bootstrap_freelancer/img/safe.png" alt=""></div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4">
-                    <div class="card p-5">IMG</div>
+                    <div class="card p-5"><img src="./style/bootstrap_freelancer/img/submarine.png" alt=""></div>
                 </div>
             </div>
         </div>
@@ -87,8 +95,8 @@
     <!-- ###### About #####  -->
 
     <section id="about" class="py-5">
-        <div class="container text-center">
-            ABOUT<br />
+        <div class="container about text-center">
+            <h1>ABOUT</h1>
             STAR<br />
             <div class="row justify-content-center text-start mt-5">
                 <div class="col-10 col-md-5">
@@ -106,6 +114,7 @@
                     </p>
                 </div>
             </div>
+            <button type="button" class="btn btn-outline-light">Download</button>
 
 
     </section>
@@ -113,26 +122,31 @@
     <!-- ###### contact me #####  -->
 
 
-    <section id="about" class="py-5">
-        <div class="container text-center">
-            ABOUT<br />
+    <section id="contact" class="py-5">
+        <div class="container contact bg-light text-center">
+            <h1>CONTACT ME</h1>
             STAR<br />
-            <div class="row justify-content-center text-start mt-5">
-                <div class="col-10 col-md-5">
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio omnis quo ex quidem, at nobis quod
-                        deserunt nostrum facilis molestias, a quisquam dolorem eveniet ratione itaque. Rem accusantium
-                        exercitationem aliquam?
-
-                    </p>
+            <form action="https://tizianonicolai.com/request-catcher/" method="get">
+                <div class="mb-3">
+                    <label for="username" class="form-label">Inserisci il tuo nome username</label>
+                    <input type="text" name="username" id="username" class="form-control" placeholder="Mario-Rossi">
                 </div>
-                <div class="col-10 col-md-5">
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio omnis quo ex quidem, at nobis quod
-                        deserunt nostrum facilis molestias, a quisquam dolorem eveniet ratione itaque. Rem accusantium
-                        exercitationem aliquam?
-
-                    </p>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
                 </div>
-            </div>
+                <div class="mb-3">
+                    <label for="exampleInputphonenumber" class="form-label">phone-number</label>
+                    <input type="phone-number" class="form-control" id="exampleInputphonenumber"
+                        placeholder="333 8989789">
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
 
 
     </section>

@@ -31,7 +31,7 @@
 
 #about {
   background-color: rgb(26, 188, 156);
-  color: white;
+  color: rgb(255, 255, 255);
 }
 #footer {
   background-color: rgb(58, 84, 109);
@@ -41,4 +41,19 @@
 .footer-bottom {
   background-color: rgb(44, 62, 80);
   color: white;
+}
+.avatar {
+  padding-bottom: 10px;
+  width: 40%;
+}
+.riga {
+}
+
+.container .about {
+  color: black;
+}
+
+.container .contact {
+  background-color: white;
+  color: black;
 }
