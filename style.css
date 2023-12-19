@@ -10,7 +10,6 @@
 .row {
   display: flex;
   align-items: center;
-  background-color: rgb(26, 188, 156);
 }
 .my-bg {
   background-color: rgb(44, 62, 80);
@@ -27,5 +26,19 @@
 
 #hero {
   background-color: rgb(26, 188, 156);
+  color: white;
+}
+
+#about {
+  background-color: rgb(26, 188, 156);
+  color: white;
+}
+#footer {
+  background-color: rgb(58, 84, 109);
+  color: white;
+}
+
+.footer-bottom {
+  background-color: rgb(44, 62, 80);
   color: white;
 }
